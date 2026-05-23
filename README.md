@@ -1,55 +1,8 @@
-# Simple Code Formatter
+# 改动
 
-Format the block of code where the cursor is located
+保留 C/C++ 中的 `->`，不再额外的为其添加空格 `- >`
 
-# Direction for use
+---
 
-- Place the cursor in the block of code you want to format.
-- Search "Simple Code Formatter" in `Command Palette`.
-  ![alt text](./README_Attachments/image.png)
-- Execute it.
+目前使用情况来看这个问题是个人比较敏感的，后续根据其它情况继续修改其它可能存在的不满意的地方
 
-# Example
-
-![alt text](./README_Attachments/recording.gif)
-
-# Supported Languges
-
-| Language   | Formatter(JS Module) |
-| ---------- | -------------------- |
-| C(C++)     | js-beautify          |
-| csharp     | js-beautify          |
-| java       | prettier             |
-| xml        | xml-formatter        |
-| sql        | sqlformatter         |
-| html       | prettier             |
-| vue        | prettier             |
-| css        | prettier             |
-| javascript | prettier             |
-| typescript | prettier             |
-| json5      | prettier             |
-| scss       | prettier             |
-| less       | prettier             |
-| graphql    | prettier             |
-| markdown   | prettier             |
-| yaml       | prettier             |
-
-# Questions
-
-## 1. Markdown syntax of the code block
-
-Make sure the Markdown syntax of the code block you want to format is correct.
-
-## 2. Code syntax in a code block
-
-The plugin will check your code syntax which use `prettier` of `Formatter(JS Module)`.
-
-### Example of Code syntax
-
-![alt text](./README_Attachments/image-1.png)
-
-## 3. If your code doesn't conform to syntax, but you still want to beautify it?
-
-You should bypass the syntax check. You can use a language powered by `js-beautify` instead of the current language.
-
-After formatting, change it back.

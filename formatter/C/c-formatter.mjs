@@ -8,5 +8,7 @@ let options = {
 };
 // 格式化代码
 export default function formatCode(code) {
-    return js_beautify(code, options);
+    const result = js_beautify(code, options);
+    // js-beautify treats -> as arithmetic operators and inserts a space; restore it
+    return result.replace(/- >/g, '->');
 }

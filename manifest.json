@@ -1,10 +1,10 @@
 {
-	"id": "simple-code-formatter",
-	"name": "Simple Code Formatter",
-	"version": "1.2.2",
+	"id": "simple-code-formatter(Second phase)",
+	"name": "Simple Code Formatter(Second phase)",
+	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "Format the code block where the cursor is.",
-	"author": "SY",
-	"authorUrl": "https://github.com/wiop93256",
+	"author": "Qu43ter",
+	"authorUrl": "https://github.com/quarter77",
 	"isDesktopOnly": false
 }
